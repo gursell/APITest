@@ -27,8 +27,6 @@ public class C5_Get_ResponseBodyTesti {
         String url = "https://jsonplaceholder.typicode.com/posts/44";
 
 
-        // 2- Expected Datayi hazırla
-
         // 3- Reponse'u kaydet
         //given ve when mutlaka olmak zorunda
         Response response = given().when().get(url);
